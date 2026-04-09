@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Ashes // Signal Archive</title>
+  <meta name="description" content="Düstere Landingpage im Black-Ashes-Stil für Netlify." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">▲</span>
+      <span>BLACK ASHES // ARCHIVE NODE</span>
+    </div>
+    <nav>
+      <a href="#world">Welt</a>
+      <a href="#factions">Fraktionen</a>
+      <a href="#characters">Figuren</a>
+      <a href="#access">Zugriff</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero panel">
+      <div class="hero-copy">
+        <p class="eyebrow">SIGNAL RESTORED // PRIORITY CHANNEL</p>
+        <h1>BLACK ASHES</h1>
+        <p class="lead">Sie nannten es Ordnung. Übrig blieb nur Asche, Staub und das, was Menschen aus sich machen, wenn ihnen die Welt unter den Füßen weggezogen wird.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#access">Zugriff anfordern</a>
+          <a class="button button-secondary" href="#world">Bericht lesen</a>
+        </div>
+        <div class="terminal-line" id="terminalLine">…Signal stabilisiert… Wolves-Relais online…</div>
+      </div>
+      <div class="hero-media">
+        <img src="images/hero.jpg" alt="Staubige Straße mit dystopischer Atmosphäre" />
+        <div class="stamp">CLASSIFIED</div>
+      </div>
+    </section>
+
+    <section id="world" class="grid-2 section-gap">
+      <article class="panel dossier">
+        <p class="section-tag">01 // LAGEBERICHT</p>
+        <h2>Was ist Black Ashes?</h2>
+        <p>Kein sauberes Sci-Fi. Keine Hochglanz-Dystopie. <strong>Black Ashes</strong> ist eine harte Welt aus Kollaps, Gewalt, Loyalität und dem ständigen Kampf darum, nicht selbst zum Monster zu werden.</p>
+        <p>Der Blackfall hat Systeme zerstört, Grenzen ausgelöscht und Macht in die Hände derer gelegt, die bereit waren, Ordnung mit Blut zu bezahlen. Zwischen Ruinen, Salzwüsten und befestigten Zonen entstehen neue Fraktionen, neue Mythen und neue Kriege.</p>
+      </article>
+
+      <article class="panel quote-card">
+        <p class="section-tag">FRAGMENT // ABGEFANGEN</p>
+        <blockquote>
+          „Die Welt ist nicht untergegangen. Sie hat nur aufgehört, fair zu sein.“
+        </blockquote>
+        <p class="quote-source">— Archivnotiz, unbestätigte Quelle</p>
+      </article>
+    </section>
+
+    <section id="factions" class="section-gap">
+      <div class="section-head">
+        <p class="section-tag">02 // FRAKTIONEN</p>
+        <h2>Mächte im Staub</h2>
+      </div>
+      <div class="cards-3">
+        <article class="panel faction wolves">
+          <span class="badge">OBSIDIAN WOLVES</span>
+          <h3>Die Wolves</h3>
+          <p>Kein Orden. Keine Armee. Eher ein Ruf, der in den falschen Nächten zu hören ist. Präzise. Brutal. Effektiv.</p>
+        </article>
+        <article class="panel faction helix">
+          <span class="badge">HELIX DOMINION</span>
+          <h3>Helix</h3>
+          <p>Kontrolle, Hierarchie, Ordnung. Helix verkauft Stabilität – und bezahlt dafür mit Gehorsam, Angst und totaler Härte.</p>
+        </article>
+        <article class="panel faction dustborn">
+          <span class="badge">DUSTBORN</span>
+          <h3>Dustborn</h3>
+          <p>Nomaden, Überlebende, Händler, Jäger. Nicht jeder Staubgeborene ist dein Feind. Nicht jeder wird je dein Freund.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="characters" class="section-gap">
+      <div class="section-head">
+        <p class="section-tag">03 // SCHLÜSSELFIGUREN</p>
+        <h2>Gesichter einer kaputten Welt</h2>
+      </div>
+      <div class="character-grid">
+        <article class="panel character-card">
+          <img src="images/drax.jpg" alt="Platzhalterbild für Drax" />
+          <div>
+            <h3>Drax</h3>
+            <p>Kontrolliert. Kalt. Der Typ Mann, der nicht laut werden muss, damit andere still werden.</p>
+          </div>
+        </article>
+        <article class="panel character-card">
+          <img src="images/vex.jpg" alt="Platzhalterbild für Vex" />
+          <div>
+            <h3>Vex</h3>
+            <p>Untergrund, Wille, Gift im Blick. Nicht bloß Teil der Welt – sie weiß, wie man sie überlebt.</p>
+          </div>
+        </article>
+      </div>
+      <p class="replace-note">Ersetze die Platzhalterbilder später einfach durch deine echten Dateien, z. B. <code>images/drax.jpg</code> oder <code>images/vex.jpg</code>.</p>
+    </section>
+
+    <section id="access" class="panel cta section-gap">
+      <p class="section-tag">04 // ZUGRIFF</p>
+      <h2>Betritt die Zone</h2>
+      <p>Nutze diesen Bereich für deinen Amazon-Link, Instagram, Newsletter oder einen direkten Einstieg in dein Buchuniversum.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#">Bericht sichern</a>
+        <a class="button button-secondary" href="#">Signal weiterleiten</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="content signal-wrapper">
+    <p class="signal-link">
+      [SYS//FRAGMENT_04]
+      <a href="https://argus-node.netlify.app/">
+        unvollständige Übertragung öffnen
+      </a>
+    </p>
+  </div>
+
+  <footer class="footer">
+    <div>
+      <p class="footer-title">PRE-COLLAPSE RECORDS</p>
+      <p>Raven Blacksteel // Black Ashes Archive</p>
+    </div>
+    <div class="footer-links">
+      <a href="impressum.html">Archivdaten</a>
+      <a href="#">Kontaktkanal</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
